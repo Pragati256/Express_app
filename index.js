@@ -1,4 +1,4 @@
-const app = 23;
+// const app = 23;
 
 // if (app > 34) {
 //   console.log("app is greater than 34");
@@ -11,4 +11,14 @@ const app = 23;
 // console.log(__dirname);
 // console.log(__filename);
 
-console.log(process);
+// console.log(process);
+
+const john = "john";
+const peter = "peter";
+
+const sayHi = (name) => {
+  console.log(`Hello there ${name}`);
+};
+
+sayHi(john);
+sayHi(peter);
